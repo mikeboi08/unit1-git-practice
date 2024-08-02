@@ -1,0 +1,146 @@
+### Step 2A
+
+/Users/micahhoward
+
+### Step 2B
+micahhoward@Micahs-MacBook-Pro ~ % ls
+micahhoward@Micahs-MacBook-Pro ~ % cd desktop
+micahhoward@Micahs-MacBook-Pro desktop % 
+
+### Step 2C
+micahhoward@Micahs-MacBook-Pro desktop % ls
+micahhoward@Micahs-MacBook-Pro desktop % cd unit1-git-practice
+micahhoward@Micahs-MacBook-Pro unit1-git-practice % 
+
+
+### Step 2D
+?
+
+### Step 2E
+
+micahhoward@Micahs-MacBook-Pro unit1-git-practice % ls
+my-steps.txt
+ 
+### Step 2F
+
+
+### Step 2G
+micahhoward@Micahs-MacBook-Pro unit1-git-practice % cd ~
+
+### Step 2H
+micahhoward@Micahs-MacBook-Pro ~ % pwd
+/Users/micahhoward
+
+
+
+### Step 2I
+micahhoward@Micahs-MacBook-Pro ~ % ls
+Applications			Public
+Cisco Packet Tracer 8.2.1	Python files
+Cisco Packet Tracer 8.2.2	README.md
+Desktop				SwiftUIView.swift
+Documents			first-contributions
+Downloads			micah-project-name
+Library				mikeboi08.github.io
+Movies				testing
+Music				text.txt
+Pictures
+
+
+
+### Step 2J
+cd ~
+
+
+### Step 2K
+
+?
+
+### Step 3A
+micahhoward@Micahs-MacBook-Pro unit1-git-practice % mkdir veggies
+micahhoward@Micahs-MacBook-Pro unit1-git-practice % mkdir meats
+micahhoward@Micahs-MacBook-Pro unit1-git-practice % mkdir desserts
+micahhoward@Micahs-MacBook-Pro unit1-git-practice % ls
+desserts	meats		my-steps.txt	veggies
+
+### Step 3B
+micahhoward@Micahs-MacBook-Pro unit1-git-practice % mv desserts sweets
+micahhoward@Micahs-MacBook-Pro unit1-git-practice % ls
+meats		my-steps.txt	sweets		veggies
+
+
+### Step 3C
+
+micahhoward@Micahs-MacBook-Pro unit1-git-practice % mkdir protiens
+
+### Step 3D
+
+micahhoward@Micahs-MacBook-Pro unit1-git-practice % mv meats protiens 
+ 
+### Step 3E
+micahhoward@Micahs-MacBook-Pro unit1-git-practice % cd veggies
+micahhoward@Micahs-MacBook-Pro veggies %  touch carrot.txt
+micahhoward@Micahs-MacBook-Pro veggies %  touch pea.txt   
+### Step 3F
+micahhoward@Micahs-MacBook-Pro veggies % cd ..
+micahhoward@Micahs-MacBook-Pro unit1-git-practice % cd sweets
+micahhoward@Micahs-MacBook-Pro sweets % touch cookie.txt
+
+### Step 3G
+micahhoward@Micahs-MacBook-Pro sweets % mv cookie.txt donut.txt
+micahhoward@Micahs-MacBook-Pro sweets % ls
+donut.txt
+### Step 3H
+micahhoward@Micahs-MacBook-Pro sweets % cd ..
+micahhoward@Micahs-MacBook-Pro unit1-git-practice % touch menu.txt
+
+micahhoward@Micahs-MacBook-Pro unit1-git-practice % touch thing.txt
+
+### Step 3I
+micahhoward@Micahs-MacBook-Pro unit1-git-practice % cp -r thing.txt tofu.txt
+micahhoward@Micahs-MacBook-Pro unit1-git-practice % ls
+menu.txt	protiens	thing.txt	veggies
+my-steps.txt	sweets		tofu.txt
+
+### Step 3J
+micahhoward@Micahs-MacBook-Pro unit1-git-practice % mv tofu.txt protiens
+
+### Step 3K
+micahhoward@Micahs-MacBook-Pro unit1-git-practice % cp -r thing.txt crab.txt
+micahhoward@Micahs-MacBook-Pro unit1-git-practice % mv crab.txt protiens
+micahhoward@Micahs-MacBook-Pro unit1-git-practice % cd protiens
+micahhoward@Micahs-MacBook-Pro protiens % mv crab.txt meat 
+### Step 3L
+micahhoward@Micahs-MacBook-Pro protiens % cd ..
+micahhoward@Micahs-MacBook-Pro unit1-git-practice % rm - r thing.txt
+rm: -: No such file or directory
+rm: r: No such file or directory
+micahhoward@Micahs-MacBook-Pro unit1-git-practice % rm -r thing.txt 
+rm: thing.txt: No such file or directory
+micahhoward@Micahs-MacBook-Pro unit1-git-practice % ls
+menu.txt	my-steps.txt	protiens	sweets		veggies
+micahhoward@Micahs-MacBook-Pro unit1-git-practice % 
+
+(I'm not sure how but it worked)
+### Step 3M
+
+micahhoward@Micahs-MacBook-Pro unit1-git-practice % cp -r veggies plants
+### Step 3N
+
+micahhoward@Micahs-MacBook-Pro unit1-git-practice % mkdir drinks 
+micahhoward@Micahs-MacBook-Pro unit1-git-practice % rm drinks 
+rm: drinks: is a directory
+micahhoward@Micahs-MacBook-Pro unit1-git-practice % rm -r drinks
+micahhoward@Micahs-MacBook-Pro unit1-git-practice % ls
+
+### Step 4
+
+
+### Step 5
+
+
+### Step 6
+
+
+### Step 7
+*** DO NOT RECORD STEP 7 ***
